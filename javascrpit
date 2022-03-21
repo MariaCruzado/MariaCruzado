@@ -1,0 +1,3 @@
+function escribirCartelitoOptimo(x,y,z) {
+  return escribirCartelito(x,y,z,(longitud(y+z)>15));
+}
